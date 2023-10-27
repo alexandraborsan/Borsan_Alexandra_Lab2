@@ -26,7 +26,7 @@ namespace Borsan_Alexandra_Lab2.Pages.Books
             ViewData["PublisherID"] = new SelectList(_context.Set<Publisher>(), "ID",
 "PublisherName");
             ViewData["AuthorID"] = new SelectList(_context.Set<Author>(), "ID",
-"LastName");
+"FullName");
             var book = new Book();
             book.BookCategories = new List<BookCategory>();
             PopulateAssignedCategoryData(_context, book);

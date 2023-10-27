@@ -50,7 +50,7 @@ namespace Borsan_Alexandra_Lab2.Pages.Authors
 
             _context.Attach(Author).State = EntityState.Modified;
 
-            try
+            try 
             {
                 await _context.SaveChangesAsync();
             }

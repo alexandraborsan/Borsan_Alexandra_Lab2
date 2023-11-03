@@ -1,4 +1,5 @@
-﻿namespace Borsan_Alexandra_Lab2.Models
+﻿using System.ComponentModel.DataAnnotations;
+namespace Borsan_Alexandra_Lab2.Models
 {
     public class BookCategory
     {

@@ -21,5 +21,6 @@ namespace Borsan_Alexandra_Lab2.Data
         public DbSet<Borsan_Alexandra_Lab2.Models.Author>? Author { get; set; }
 
         public DbSet<Borsan_Alexandra_Lab2.Models.Category>? Category { get; set; }
+        public DbSet<Borsan_Alexandra_Lab2.Models.BookCategory>? BookCategory { get; set; }
     }
 }

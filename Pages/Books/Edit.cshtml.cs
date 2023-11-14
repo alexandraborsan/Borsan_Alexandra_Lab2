@@ -9,9 +9,11 @@ using Microsoft.EntityFrameworkCore;
 using Borsan_Alexandra_Lab2.Data;
 using Borsan_Alexandra_Lab2.Models;
 using Borsan_Alexandra_Lab2.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Borsan_Alexandra_Lab2.Pages.Books
 {
+    [Authorize(Roles = "Admin")]
     public class EditModel : BookCategoriesPageModel
     {
         private readonly Borsan_Alexandra_Lab2.Data.Borsan_Alexandra_Lab2Context _context;
